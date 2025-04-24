@@ -6,6 +6,7 @@
     font-size: 18px;
     font-weight:700;
     padding: 1em 0 0.5em 0;
+    font-family: var(--fonte-principal);
 }
 
 .swiper-slide img{
@@ -33,6 +34,10 @@
     justify-content: space-between;
 }
 
+.card__imagem{
+    padding: 0.5em 0;
+}
+
 .botoes{
     display:flex;
 }
@@ -43,6 +48,7 @@
     border-radius:10px;
     margin: 1em;
     padding: 1em;
+    font-family: var(--fonte-principal);
 }
 
 .descricao__titulo{
@@ -59,6 +65,7 @@
 
 .descricao__texto{
     font-size: 14px;
+    font-weight: 300;
 }
 
 .botoes__item{
@@ -67,7 +74,7 @@
 
 .botoes__ancora{
     background-color: var(--laranja);
-    padding: 1em 2.7em;
+    padding: 1em 2.2em;
     color:var(--branco);
     font-weight: 700;
     text-decoration:none;
