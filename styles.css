@@ -13,6 +13,7 @@
     --fonte-principal: "Poppins";
     --azul: #002F52;
     font-family: var(--fonte-principal);
+    --preto:#000000;
 }
 
 body {
